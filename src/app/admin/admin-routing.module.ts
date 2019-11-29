@@ -7,7 +7,7 @@ import { StatusComponent } from './status/status.component';
 
 const routes: Routes = [
   {
-    path: 'admin',
+    path: '',
     component: AdminTemplateComponent,
     children: [
       {
