@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AdminModule } from './admin/admin.module';
-import { ClientModule } from './client/client.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +11,6 @@ import { ClientModule } from './client/client.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule,
-    ClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
